@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity" android:padding="40dp">
+    tools:context=".activities.MainActivity" android:padding="40dp">
 
     <Button
         android:id="@+id/btnShowMsg"
@@ -52,4 +52,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnGoToNextActivity"
         android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnRecyclerViewDemo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recycler View Demo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnShareToNetwork"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/red"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
