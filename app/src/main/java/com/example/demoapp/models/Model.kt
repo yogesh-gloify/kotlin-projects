@@ -1,43 +1,49 @@
 package com.example.demoapp.models
 
+import android.content.Context
+import com.example.demoapp.R
+
 data class Hobby(var title: String)
 
 object Supplier {
-    val hobbies = listOf(
-        Hobby("Swimming"),
-        Hobby("Reading"),
-        Hobby("Walking"),
-        Hobby("Sleeping"),
-        Hobby("Gaming"),
-        Hobby("Programming"),
-        Hobby("Talking"),
-        Hobby("Swimming"),
-        Hobby("Reading"),
-        Hobby("Walking"),
-        Hobby("Sleeping"),
-        Hobby("Gaming"),
-        Hobby("Programming"),
-        Hobby("Talking"),
-        Hobby("Swimming"),
-        Hobby("Reading"),
-        Hobby("Walking"),
-        Hobby("Sleeping"),
-        Hobby("Gaming"),
-        Hobby("Programming"),
-        Hobby("Talking"),
-        Hobby("Swimming"),
-        Hobby("Reading"),
-        Hobby("Walking"),
-        Hobby("Sleeping"),
-        Hobby("Gaming"),
-        Hobby("Programming"),
-        Hobby("Talking"),
-        Hobby("Swimming"),
-        Hobby("Reading"),
-        Hobby("Walking"),
-        Hobby("Sleeping"),
-        Hobby("Gaming"),
-        Hobby("Programming"),
-        Hobby("Talking")
-    )
+    fun getHobbies(context: Context): List<Hobby>
+    {
+        return listOf(
+            Hobby(context.getString(R.string.hobby_one)),
+            Hobby(context.getString(R.string.hobby_two)),
+            Hobby(context.getString(R.string.hobby_three)),
+            Hobby(context.getString(R.string.hobby_four)),
+            Hobby(context.getString(R.string.hobby_five)),
+            Hobby(context.getString(R.string.hobby_six)),
+            Hobby(context.getString(R.string.hobby_seven)),
+            Hobby(context.getString(R.string.hobby_one)),
+            Hobby(context.getString(R.string.hobby_two)),
+            Hobby(context.getString(R.string.hobby_three)),
+            Hobby(context.getString(R.string.hobby_four)),
+            Hobby(context.getString(R.string.hobby_five)),
+            Hobby(context.getString(R.string.hobby_six)),
+            Hobby(context.getString(R.string.hobby_seven)),
+            Hobby(context.getString(R.string.hobby_one)),
+            Hobby(context.getString(R.string.hobby_two)),
+            Hobby(context.getString(R.string.hobby_three)),
+            Hobby(context.getString(R.string.hobby_four)),
+            Hobby(context.getString(R.string.hobby_five)),
+            Hobby(context.getString(R.string.hobby_six)),
+            Hobby(context.getString(R.string.hobby_seven)),
+            Hobby(context.getString(R.string.hobby_one)),
+            Hobby(context.getString(R.string.hobby_two)),
+            Hobby(context.getString(R.string.hobby_three)),
+            Hobby(context.getString(R.string.hobby_four)),
+            Hobby(context.getString(R.string.hobby_five)),
+            Hobby(context.getString(R.string.hobby_six)),
+            Hobby(context.getString(R.string.hobby_seven)),
+            Hobby(context.getString(R.string.hobby_one)),
+            Hobby(context.getString(R.string.hobby_two)),
+            Hobby(context.getString(R.string.hobby_three)),
+            Hobby(context.getString(R.string.hobby_four)),
+            Hobby(context.getString(R.string.hobby_five)),
+            Hobby(context.getString(R.string.hobby_six)),
+            Hobby(context.getString(R.string.hobby_seven)),
+        )
+    }
 }

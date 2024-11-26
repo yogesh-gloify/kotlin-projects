@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">DemoApp</string>
+    <string name="btn_show_toast">Show Toast</string>
+    <string name="et_enter_your_message">Enter your message</string>
+    <string name="btn_go_to_next_activity">Go To Next Activity</string>
+    <string name="btn_share_to_your_network">Share To Your Network</string>
+    <string name="btn_recycler_view_demo">Recycler View Demo</string>
+    <string name="toast_btn_clicked">Button Clicked!</string>
+    <string name="hobby_one">Swimming</string>
+    <string name="hobby_two">Reading</string>
+    <string name="hobby_three">Walking</string>
+    <string name="hobby_four">Sleeping</string>
+    <string name="hobby_five">Gaming</string>
+    <string name="hobby_six">Programming</string>
+    <string name="hobby_seven">Talking</string>
+    <string name="btn_change_language">Change Language</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_light">Light</string>
 </resources>

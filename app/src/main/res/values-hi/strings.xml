@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">डेमो ऐप</string>
+    <string name="btn_show_toast">टोस्ट दिखाएँ</string>
+    <string name="et_enter_your_message">अपना संदेश दर्ज करें</string>
+    <string name="btn_go_to_next_activity">अगली गतिविधि पर जाएँ</string>
+    <string name="btn_share_to_your_network">अपने नेटवर्क पर साझा करें</string>
+    <string name="btn_recycler_view_demo">रीसायकलर व्यू डेमो</string>
+    <string name="toast_btn_clicked">बटन दबाया गया!</string>
+    <string name="hobby_one">तैराकी</string>
+    <string name="hobby_two">पढ़ना</string>
+    <string name="hobby_three">चलना</string>
+    <string name="hobby_four">सोना</string>
+    <string name="hobby_five">खेलना</string>
+    <string name="hobby_six">प्रोग्रामिंग</string>
+    <string name="hobby_seven">बात करना</string>
+    <string name="btn_change_language">भाषा परिवर्तित करें</string>
+    <string name="theme_dark">गहरा</string>
+    <string name="theme_light">हल्का</string>
+</resources>

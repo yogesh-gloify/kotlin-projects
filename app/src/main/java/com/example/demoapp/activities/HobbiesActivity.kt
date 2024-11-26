@@ -26,7 +26,7 @@ class HobbiesActivity : AppCompatActivity() {
         layoutManager.orientation = LinearLayoutManager.VERTICAL
         rvHobby.layoutManager = layoutManager
 
-        val adapter = HobbiesAdapter(this, Supplier.hobbies)
+        val adapter = HobbiesAdapter(this, Supplier.getHobbies(this))
         rvHobby.adapter = adapter
     }
 }

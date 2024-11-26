@@ -54,7 +54,7 @@ class HobbiesAdapter(val context: Context, private val hobbies: List<Hobby>) :
                     intent.action = Intent.ACTION_SEND
                     intent.putExtra(Intent.EXTRA_TEXT, message)
                     intent.type = "text/plain"
-                    context.startActivity(Intent.createChooser(intent, "Share to your network"))
+                    context.startActivity(Intent.createChooser(intent, context.getString(R.string.btn_share_to_your_network)))
                 }
             }
         }
